@@ -7,8 +7,5 @@ let vapidKeys = {
 
 push.setVapidDetails('mailto:brookgm2@gmail.com', vapidKeys.publicKey, vapidKeys.privateKey)
 let sub = 
-{"endpoint":"https://fcm.googleapis.com/fcm/send/eM2PrwXqtlc:APA91bGg_H0LE5Yib6aP_RtX0U6vUh9728diTnXcSttRPprPAI6XHqRd0J-sVNdSSCfwtztfWEF5sGPVp27rr-jpH3YXNqElCu7zMZBHs86ZKp9xluoIxYRXxRWwwoBkdPdmiUn-_c0T",
-"expirationTime":null,
-"keys":{"p256dh":"BKbLWcJ8gQHOzjHCZqSoLyVntOo-JPYgKA6Cmvy6gehPvPKD3538ZRJGlTSE2x-FzE_nDdwdtDQ7rP8SbdDCreY",
-"auth":"OH4UOoA1-zHgGy2nLWLNOA"}}
+{"endpoint":"https://fcm.googleapis.com/fcm/send/cEOQlPhbH1c:APA91bEXBdmPt03k7I8wxIy_K04TuRFob_iLkAL8UbScTFd6lSmmOW_4beKryZfeqdQwr9tg7NLPppPc-1WslfhM9Shf3WNb0qm89pzrk3ddol3PurlVla8ulGuDXJSpYtt0hUgdlwRQ","expirationTime":null,"keys":{"p256dh":"BORbdj9HeBp0I0zykmQ9FP4OkONOcnWZVkjI6KiIV3Vp0DBae3AXgQgGTvEEvSn_2RAfdYzp6O0Phbb1V5B3gLs","auth":"K788V35Hbr_J1pe4Cie_pA"}}
 push.sendNotification(sub, 'test message')
